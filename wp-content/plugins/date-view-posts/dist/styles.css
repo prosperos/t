@@ -1,0 +1,36 @@
+/*!**********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles.sass ***!
+  \**********************************************************************************************************/
+body {
+  background-color: #3498db; }
+  body .dvp-articles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; }
+  body .dvp-article-card {
+    width: calc(33% - 20px); }
+    body .dvp-article-card .dvp-content {
+      display: none; }
+  body .dvp-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    width: 80%; }
+    body .dvp-popup img {
+      max-width: 100%;
+      height: auto; }
+    body .dvp-popup .dvp-close-popup-js {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      cursor: pointer; }
+    body .dvp-popup .dvp-title {
+      font-size: 30px;
+      display: flex; }
+

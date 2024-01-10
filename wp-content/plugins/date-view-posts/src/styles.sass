@@ -1,0 +1,41 @@
+$primary-color: #3498db
+
+body
+  background-color: $primary-color
+
+  .dvp-articles
+    display: flex
+    flex-wrap: wrap
+    gap: 20px
+
+  .dvp-article-card
+    width: calc(33% - 20px)
+
+    .dvp-content
+      display: none
+
+  .dvp-popup
+    display: none
+    position: fixed
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    background-color: #fff
+    padding: 20px
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+    z-index: 999
+    width: 80%
+
+    img
+      max-width: 100%
+      height: auto
+
+    .dvp-close-popup-js
+      position: absolute
+      top: 10px
+      right: 10px
+      cursor: pointer
+
+    .dvp-title
+      font-size: 30px
+      display: flex

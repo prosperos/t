@@ -1,0 +1,8 @@
+{
+  "autoload": {
+    "psr-4": {
+      "DateViewPosts\\": "app/src"
+    },
+    "files": ["app/bootstrap.php"]
+  }
+}
