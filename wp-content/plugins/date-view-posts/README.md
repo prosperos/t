@@ -1,7 +1,7 @@
 в папці плагіну date-view-posts запускаємо npm install 20 версія
 щоб збілдити стилі npm run build
 watch: npm run watch
-
+викликати шорткоди [display_articles start_date="2024/01/01" end_date="2024/01/06"]
 
 
 1. Розгорнути базову тему WordPress.
